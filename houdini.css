@@ -14,6 +14,31 @@
         url('static/Inter-Light.ttf') format('truetype'); 
 }
 
+
+a:hover{
+    color:#a6a6a6; 
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.topright{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+.about{
+    font-size: 12px;
+    text-align: right;
+    color: black;
+}
+
 body {
     background-color: #0B0B0B;
     color: white;
