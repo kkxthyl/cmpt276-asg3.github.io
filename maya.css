@@ -1,7 +1,3 @@
-.title{
-    color: black;
-}
-
 @font-face {
     font-family: 'Inter-medium';
     src: url('static/Inter-Medium.woff2') format('woff2'), 
@@ -40,8 +36,13 @@ img {
 }
 
 .overview{
+    text-align: center;
+    padding: 100px;
+}
+
+.p-text{
     text-align: left;
-    padding: 70px;
+    padding: 80px;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
