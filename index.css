@@ -10,6 +10,19 @@
         url('static/Inter-Light.ttf') format('truetype'); 
 }
 
+a:hover{
+    color:#a6a6a6; 
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 body {
     background-color: #0B0B0B;
     color: white;
@@ -24,10 +37,10 @@ body {
 }
 
 .centered {
-position: absolute;
-top: 30%;
-left: 50%;
-transform: translate(-50%, -50%);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .left-centered {
@@ -67,4 +80,15 @@ img {
 
 .margin{
     margin-bottom: 120px;
+}
+
+.about{
+    font-size: 12px;
+    text-align: right;
+}
+
+.topright{
+    position: absolute;
+    top: 5%;
+    right: 5%;
 }
